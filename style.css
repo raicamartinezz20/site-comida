@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.logo{
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.texto__superior{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -4% 0 0 20%;
+}
+
+.texto__superior ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+.texto__superior li{
+    font-size: 200%;
+    margin-left: 10%;
+}
+.primar{
+    display: grid;
+    grid-template-areas: 
+    "hamb hamb logo2 logo2";
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.hamb{
+    width: 110%;
+    margin-left: 57%;
+    margin-top: 3%;
+}
+.logo2{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
